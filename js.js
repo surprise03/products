@@ -50,7 +50,7 @@ function getData(){
     .then(res=>res.json())
     
     .then(data=>displayData(data))
-    loader1.remove();
+    
     
 
 }
@@ -93,7 +93,7 @@ function deletData(id){
 
 
 
-
+loader1.remove();
 getData();
 
 
